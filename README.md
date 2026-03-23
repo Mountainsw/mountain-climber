@@ -54,6 +54,6 @@
 ## Note
 Since the tool can be very generalized, its recommended when searching for a specific thing (like a person or breach) that you make sure to provide as much detail as possible. 
 
-also this uses a lot of amazing OSINT tools that would actually probably be better if you used them stand alone, but the advantage here is how the data is processed and sorted, and being able to generalize the search range.
+also this uses a lot of amazing OSINT tools that would actually might be better if you used them stand alone, but the advantage here is how the data is processed and sorted, and being able to generalize the search range.
 
 
