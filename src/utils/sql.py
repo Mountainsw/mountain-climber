@@ -3,7 +3,6 @@ import re
 from pathlib import Path
 import json
 
-
 class SqlManagement:
     def __init__(self, db_path):
         self.db = db_path
@@ -53,7 +52,6 @@ class SqlManagement:
         else:
             print("table not found.")
             
-
         
     def IDtablecommit(self, tname, name, id):
         tname = self._safe_name(tname)  
@@ -68,10 +66,7 @@ class SqlManagement:
 
         conn.commit()
         conn.close()
-    
-
-        
-        
+         
     def FetchIDTable(self, tname):
         conn = sqlite3.connect(self.db)
         cur = conn.cursor()
